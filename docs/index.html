@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelLife</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">PixelLife</h1>
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">RESOURCES</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a>
+            </nav>
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGN UP</button>
+        </header>
+        
+        <main>
+            <div data-aos="fade-zoom-in" data-aos-duration="3000" class="content">
+                <!-- Tag Box -->
+                <div class="tag-box" data-aos="fade-zoom-in" data-aos-duration="2000">
+                    <span class="tag">🚀 Welcome to PixelLife</span>
+                </div>
+
+                <!-- Main Heading -->
+                <h1 class="dynamic-text"></h1>
+
+                <!-- Description -->
+                <p class="description">
+                    Discover the future with PixelLife – where technology meets creativity. Join us on our journey to build something amazing.
+                </p>
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn-get-started">Learn more &gt;</a>
+                    <a href="#" class="btn-signing-main">Join now &gt;</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- 3D Model -->
+        <spline-viewer class="robot-3d" url="https://prod.spline.design/mEI12tfQB0gAA3Y1/scene.splinecode"></spline-viewer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.75/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="script.js"></script>
+</body>
+</html>
