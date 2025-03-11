@@ -13,7 +13,7 @@ PixelLife's 3D website is an innovative and interactive landing page featuring a
 │-- assets/      # Images, 3D models, and other assets
 
 🌟 Preview
-![3D Website Preview](docs/3d-Website.png)
+![3D Website Preview](docs/3d_Website.png)
 
 
 
