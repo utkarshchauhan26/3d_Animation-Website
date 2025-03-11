@@ -11,7 +11,9 @@ PixelLife's 3D website is an innovative and interactive landing page featuring a
 │-- styles.css   # CSS styling
 │-- script.js    # JavaScript functionality
 │-- assets/      # Images, 3D models, and other assets
-![3D Website Preview](design/3dWebsite.png)
+
+
+[3D Website Preview](docs/3d Website.png)
 
 
 🌐 Live Demo
